@@ -1,0 +1,29 @@
+new Set([1,1,2,2,3,4])
+{1,2,3,4}
+_________________________________________
+[...new Set("referee")].join("")
+
+ref
+__________________________________________
+let m = new Map();
+m.set([1,2,3], true);
+m.set([1,2,3], false);
+{[1,2,3] => false}
+{[1,2,3] => false}
+________________________________________
+const hasDuplicate = (val) => new Set(val).size !== arr.length
+________________________________________
+function vowelCount(str){
+let vowels = 'AEIOUaeiou'
+const vowel = new map()
+for (let letter of str){
+if(vowels.includes(letter)){
+if(vowel.has(letter)){
+vowel.set(letter, vowel.get(letter)+1)
+}
+}else{
+vowel.set(letter, 1)
+}
+}
+return vowel;
+}
